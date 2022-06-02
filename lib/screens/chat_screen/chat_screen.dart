@@ -20,7 +20,7 @@ class ChatScreen extends StatelessWidget {
               child: ListView.builder(
                 itemCount: AppDummyData.messages.length,
                 itemBuilder: (ctx, i) {
-                  if (AppDummyData.messages[i].commingMessage) {
+                  if (AppDummyData.messages[i].comingMessage) {
                     return CommingMessageBuble(
                       messageModel: AppDummyData.messages[i],
                     );
@@ -56,8 +56,12 @@ class ChatScreen extends StatelessWidget {
                             color: Colors.black38,
                             fontSize: 15,
                           ),
-                          contentPadding:
-                              const EdgeInsets.fromLTRB(10, 10, 5, 5),
+                          contentPadding: const EdgeInsets.fromLTRB(
+                            10,
+                            10,
+                            5,
+                            5,
+                          ),
                           fillColor: AppColors.darkWhite,
                           filled: true,
                           border: OutlineInputBorder(
@@ -122,9 +126,10 @@ class ChatScreen extends StatelessWidget {
               Text(
                 'Ben Harfa',
                 style: TextStyle(
-                    color: Colors.black,
-                    fontWeight: FontWeight.w600,
-                    height: 1.3),
+                  color: Colors.black,
+                  fontWeight: FontWeight.w600,
+                  height: 1.3,
+                ),
               ),
               Text(
                 'Active now',

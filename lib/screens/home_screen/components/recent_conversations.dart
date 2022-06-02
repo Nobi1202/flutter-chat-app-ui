@@ -68,7 +68,9 @@ class RecentConversationsCard extends StatelessWidget {
         child: Text(
           chatListMessagesModel.name,
           style: const TextStyle(
-              color: AppColors.blue, fontWeight: FontWeight.bold),
+            color: AppColors.blue,
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ),
       subtitle: Text(

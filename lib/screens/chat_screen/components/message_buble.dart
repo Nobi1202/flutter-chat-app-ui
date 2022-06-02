@@ -47,7 +47,7 @@ class MessageBuble extends StatelessWidget {
                     DateFormat('HH:mm').format(messageModel.messageTime),
                     style: const TextStyle(color: AppColors.grey),
                   ),
-                  if (messageModel.isMessageReaded)
+                  if (messageModel.isMessageRead)
                     Padding(
                       padding: const EdgeInsets.only(left: 10),
                       child: Row(

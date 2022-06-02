@@ -145,7 +145,7 @@ class AppDummyData {
       messageTime: DateTime.now().subtract(
         const Duration(hours: 5),
       ),
-      commingMessage: true,
+      comingMessage: true,
     ),
     MessageModel(
       userName: 'Ben Harfa',
@@ -154,7 +154,7 @@ class AppDummyData {
       messageTime: DateTime.now().subtract(
         const Duration(hours: 3, minutes: 20),
       ),
-      commingMessage: true,
+      comingMessage: true,
     ),
     MessageModel(
       userName: 'Ben Harfa',
@@ -163,8 +163,8 @@ class AppDummyData {
       messageTime: DateTime.now().subtract(
         const Duration(hours: 1, minutes: 10),
       ),
-      commingMessage: false,
-      isMessageReaded: true,
+      comingMessage: false,
+      isMessageRead: true,
     ),
     MessageModel(
       userName: 'Ben Harfa',
@@ -173,8 +173,8 @@ class AppDummyData {
       messageTime: DateTime.now().subtract(
         const Duration(minutes: 45),
       ),
-      commingMessage: false,
-      isMessageReaded: true,
+      comingMessage: false,
+      isMessageRead: true,
     ),
     MessageModel(
       userName: 'Ben Harfa',
@@ -183,7 +183,7 @@ class AppDummyData {
       messageTime: DateTime.now().subtract(
         const Duration(minutes: 31),
       ),
-      commingMessage: true,
+      comingMessage: true,
     ),
     MessageModel(
       userName: 'Ben Harfa',
@@ -191,7 +191,7 @@ class AppDummyData {
       messageTime: DateTime.now().subtract(
         const Duration(minutes: 45),
       ),
-      commingMessage: false,
+      comingMessage: false,
     ),
   ];
 }
